@@ -1,0 +1,197 @@
+body {
+    margin: 0;
+    line-height: normal;
+}
+
+.create-account {
+    position: absolute;
+    top: -1px;
+    left: -15px;
+    font-size: 85px;
+    display: inline-block;
+    width: 550px;
+    height: 85px;
+}
+.frame-child {
+    position: absolute;
+    top: 377.5px;
+    right: 26.5px;
+    border-top: 1px solid #fff;
+    box-sizing: border-box;
+    width: 469px;
+    height: 1px;
+}
+.frame-item {
+    position: absolute;
+    top: 484.5px;
+    right: 29.5px;
+    border-top: 1px solid #fff;
+    box-sizing: border-box;
+    width: 469px;
+    height: 1px;
+}
+.rectangle-div {
+    position: absolute;
+    top: 528px;
+    left: 24px;
+    border-radius: 45px;
+    width: 468px;
+    height: 74px;
+    background-color: #bd4343;
+}
+.create-account1 {
+    position: absolute;
+    top: 552px;
+    left: 27px;
+    font-size: 50px;
+    color: #0a0707;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 465px;
+    height: 74px;
+}
+.already-have-an {
+    position: absolute;
+    top: 13px;
+    left: 0px;
+    font-weight: 300;
+    display: inline-block;
+    width: 345px;
+    height: 40px;
+}
+.sign-up1 {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0%;
+    left: 0%;
+    display: inline-block;
+}
+.sign-up {
+    position: absolute;
+    top: 13px;
+    left: 342px;
+    width: 123px;
+    height: 40px;
+    color: #5abff1;
+}
+.already-have-an-account-parent {
+    position: absolute;
+    top: 641px;
+    left: 24px;
+    border: 1px solid rgba(255, 255, 255, 0);
+    box-sizing: border-box;
+    width: 468px;
+    height: 69px;
+    overflow: hidden;
+    font-family: Inter;
+}
+.component-1-child {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0%;
+    right: 0%;
+    bottom: 0%;
+    left: 0%;
+    background-color: rgba(217, 217, 217, 0);
+}
+.email-label, .username-label, .password-label {
+    position: absolute;
+    height: 100%;
+    left: 0;
+    display: flex;
+    align-items: center;
+    transition: all 0.3s ease;
+}
+.email-label {
+    top: 0%;
+    font-size: 16px;
+    color: #fff;
+}
+.username-label {
+    top: 0%;
+    font-size: 16px;
+    color: #fff;
+}
+.password-label {
+    top: 0%;
+    font-size: 16px;
+    color: #fff;
+}
+.email-label.active, .username-label.active, .password-label.active {
+    top: -20px;
+    font-size: 12px;
+    color: #aaa;
+}
+.component-1 {
+    position: absolute;
+    top: 205px;
+    left: 24px;
+    width: 403px;
+    height: 59px;
+    text-align: left;
+}
+.component-3 {
+    position: absolute;
+    top: 290px;
+    left: 24px;
+    width: 403px;
+    height: 59px;
+    text-align: left;
+}
+.component-2 {
+    position: absolute;
+    top: 353px;
+    left: 24px;
+    width: 403px;
+    height: 59px;
+    text-align: left;
+}
+.create-account-parent {
+    position: absolute;
+    bottom: 50px;
+    left: 50px;
+    border: 1px solid #e3d4d4;
+    box-sizing: border-box;
+    width: 522px;
+    height: 724px;
+    overflow: hidden;
+}
+.frame1 {
+    position: absolute;
+    bottom: 100px;
+    left: 100px;
+    border: 1px solid rgba(0, 0, 0, 0.89);
+    box-sizing: border-box;
+    width: 622px;
+    height: 824px;
+    overflow: hidden;
+}
+.signup {
+    width: 100%;
+    position: relative;
+    background-color: #21483f;
+    height: 1024px;
+    overflow: hidden;
+    cursor: pointer;
+    text-align: center;
+    font-size: 30px;
+    font-family: Acme;
+}
+
+/* Tambahan CSS untuk input fields */
+.input-field {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+    box-sizing: border-box;
+    font-size: 16px;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #fff;
+    display: none;
+}

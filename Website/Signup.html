@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, width=device-width">
+    
+    <link rel="stylesheet" href="./Signup.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Acme:wght@400&display=swap" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;700&display=swap" />
+</head>
+<body>
+    <div class="signup" id="signupContainer">
+        <div class="frame1">
+            <div class="create-account-parent">
+                <div class="create-account">Create Account</div>
+                <div class="frame-child"></div>
+                <div class="frame-item"></div>
+                <div class="rectangle-div"></div>
+                <div class="create-account1">Create Account</div>
+                <div class="already-have-an-account-parent">
+                    <div class="already-have-an">Already have an Account!</div>
+                    <div class="sign-up">
+                        <b class="sign-up1">Login</b>
+                    </div>
+                </div>
+                <div class="component-1" id="component1">
+                    <div class="email-label">Email</div>
+                    <input type="text" id="emailInput" class="input-field" placeholder="Enter Email">
+                </div>
+                <div class="frame-inner"></div>
+                <div class="component-3" id="component3">
+                    <div class="username-label">Username</div>
+                    <input type="text" id="usernameInput" class="input-field" placeholder="Enter Username">
+                </div>
+                <div class="component-2" id="component2">
+                    <div class="password-label">Password</div>
+                    <input type="password" id="passwordInput" class="input-field" placeholder="Enter Password">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        document.getElementById('component1').addEventListener('click', function() {
+            document.getElementById('emailInput').style.display = 'block';
+            document.querySelector('.email-label').classList.add('active');
+            document.getElementById('emailInput').focus();
+        });
+
+        document.getElementById('component2').addEventListener('click', function() {
+            document.getElementById('passwordInput').style.display = 'block';
+            document.querySelector('.password-label').classList.add('active');
+            document.getElementById('passwordInput').focus();
+        });
+
+        document.getElementById('component3').addEventListener('click', function() {
+            document.getElementById('usernameInput').style.display = 'block';
+            document.querySelector('.username-label').classList.add('active');
+            document.getElementById('usernameInput').focus();
+        });
+
+        document.getElementById('emailInput').addEventListener('blur', function() {
+            if (this.value === '') {
+                this.style.display = 'none';
+                document.querySelector('.email-label').classList.remove('active');
+            }
+        });
+
+        document.getElementById('passwordInput').addEventListener('blur', function() {
+            if (this.value === '') {
+                this.style.display = 'none';
+                document.querySelector('.password-label').classList.remove('active');
+            }
+        });
+
+        document.getElementById('usernameInput').addEventListener('blur', function() {
+            if (this.value === '') {
+                this.style.display = 'none';
+                document.querySelector('.username-label').classList.remove('active');
+            }
+        });
+    </script>
+</body>
+</html>
