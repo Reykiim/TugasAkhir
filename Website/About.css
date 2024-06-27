@@ -1,0 +1,176 @@
+body {
+    margin: 0;
+    line-height: normal;
+}
+
+.framenavbar-child {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: 45px;
+    background: linear-gradient(90deg, #2a7b6f 9.42%, #5abff1 98%);
+    width: 1440px;
+    height: 105px;
+}
+
+.framesignup-child {
+    position: absolute;
+    top: 24px;
+    left: 0px;
+    border-radius: 40px;
+    background-color: #2a7b6f;
+    width: 194px;
+    height: 56px;
+}
+
+.signup {
+    position: absolute;
+    top: 24px;
+    left: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 194px;
+    height: 56px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.framesignup {
+    position: absolute;
+    top: 0px;
+    left: 1220px;
+    width: 194px;
+    height: 105px;
+    overflow: hidden;
+}
+
+.login {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 103px;
+    height: 56px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.framelogin {
+    position: absolute;
+    top: 24px;
+    left: 1078px;
+    width: 103px;
+    height: 56px;
+    overflow: hidden;
+}
+
+.about {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 133px;
+    height: 56px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.frameabout {
+    position: absolute;
+    top: 24px;
+    left: 318px;
+    width: 133px;
+    height: 56px;
+    overflow: hidden;
+    text-decoration: none; /* Remove underline from links */
+    color: inherit; /* Inherit color from parent */
+}
+
+.service {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 136px;
+    height: 56px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.frameservice {
+    position: absolute;
+    top: 24px;
+    left: 508px;
+    width: 138px;
+    height: 56px;
+    overflow: hidden;
+}
+
+.how-it-work {
+    position: absolute;
+    top: 0px;
+    left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 230px;
+    height: 56px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.framehowitwork {
+    position: absolute;
+    top: 24px;
+    left: 691px;
+    width: 240px;
+    height: 56px;
+    overflow: hidden;
+}
+
+.framenavbar {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 1440px;
+    height: 105px;
+    overflow: hidden;
+}
+
+.tj-aqua-gro-1 {
+    position: absolute;
+    top: -6px;
+    left: -17px;
+    width: 289px;
+    height: 284px;
+    object-fit: cover;
+}
+
+.framenavbar-parent {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: #21483f;
+    width: 1440px;
+    height: 1024px;
+    overflow: hidden;
+}
+
+.desktop-1 {
+    width: 100%;
+    position: relative;
+    background-color: #40b4a4;
+    height: 1024px;
+    overflow: hidden;
+    text-align: center;
+    font-size: 40px;
+    color: #fbfbfb;
+    font-family: Acme;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
